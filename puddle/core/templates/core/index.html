@@ -1,18 +1,8 @@
-<!doctype html>
-<html>
-        <head>
-                <meta charset="utf-8">
-                <meta name="viewport" content="width=device-width, intial-scale=1.0">
-                <script src="https://cdn.tailwindcss.com"></script>
+{% extends 'core/base.html' %}
 
-                <title>Puddle</title>
-        </head>
+{% block title %}Welcome{% endblock %}
 
-        <body>
-                <div class="px-6 py-6">
-                        <h1 class="text-3xl font-bold">Puddle</h1>
-                        <p class="text-gray-600">A simple, lightweight, and fast static site generator.</p>
-                </div>
-        </body>
-
-</html>
+{% block content %}
+        <h1 class="text-3xl font-bold">Front page</h1>
+        <p class="text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate odit, sunt nam libero inventore, provident nulla perferendis, aperiam fugit sequi odio temporibus asperiores excepturi blanditiis eveniet possimus! Aperiam, ratione illum.</p>
+{% endblock %}
